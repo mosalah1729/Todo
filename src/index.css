@@ -1,39 +1,50 @@
-.App {
-  text-align: center;
-  margin-top: 50px;
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
 }
 
-input {
-  padding: 10px;
-  font-size: 16px;
+ol, ul {
+  padding-left: 30px;
 }
 
-button {
-  padding: 10px;
-  margin-left: 10px;
-  font-size: 16px;
-  cursor: pointer;
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
-ul {
-  list-style-type: none;
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
   padding: 0;
+  text-align: center;
+  width: 34px;
 }
 
-li {
-  padding: 10px;
-  font-size: 18px;
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
+  flex-direction: row;
 }
 
-li span {
-  cursor: pointer;
-}
-
-li button {
-  padding: 5px 10px;
-  cursor: pointer;
+.game-info {
+  margin-left: 20px;
 }
