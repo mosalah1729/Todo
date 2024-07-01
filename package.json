@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "tictactoe",
   "homepage": "https://mosalah1729.github.io/tic-tac-toe",
+=======
+  "name": "todo-list",
+  "homepage": "https://mosalah1729.github.io/Todo/",
+>>>>>>> parent of 1d9dafe (added homepage url /)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
